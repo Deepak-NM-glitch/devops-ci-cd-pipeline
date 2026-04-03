@@ -1,31 +1,26 @@
 # DevOps CI/CD Pipeline Project 🚀
 
 ## 📖 Overview
-
-This project demonstrates a basic DevOps CI/CD pipeline using industry tools.
+This project demonstrates deployment of a Flask application on AWS EC2.
 
 ## 🛠️ Tools Used
+- Git & GitHub
+- AWS EC2
+- Python (Flask)
+- Linux
 
-* Git & GitHub
-* Jenkins (to be added)
-* Maven (to be added)
-* Docker (to be added)
-* AWS (to be added)
+## 🚀 What I Implemented
+- Created a Flask application
+- Deployed it on AWS EC2 instance
+- Accessed the app using public IP
 
-## 🔄 CI/CD Pipeline Flow
+## 🔄 Current Flow
+Developer → GitHub → Manual Deployment → EC2
 
-1. Developer pushes code to GitHub
-2. Jenkins automatically pulls the code
-3. Build process starts using Maven
-4. Application gets deployed
+## 🌐 Output
+http://<your-ec2-ip>:5000
 
-## 📂 Project Structure
-
-* Source Code
-* Jenkinsfile (coming soon)
-* Dockerfile (coming soon)
-
-## 📌 Status
-
-🚧 Project in Progress (Learning DevOps step by step)
+## 📌 Next Steps
+- Add Docker containerization
+- Setup Jenkins CI/CD pipeline
 
